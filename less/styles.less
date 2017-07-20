@@ -1,0 +1,142 @@
+@import "typeface-full";
+@import "typeface-base";
+@import "typeface-euro";
+@import "typeface-cy";
+@import "switch";
+
+// page start //
+
+
+body
+{
+  color: #000000;
+  line-height: 1.4;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper
+{
+    padding: 60px 40px 40px 40px;
+    max-width: 100%;
+    word-break: break-all;
+}
+
+.hidden
+{
+    display: none;
+}
+
+textarea
+{
+    width: 100%;
+    min-height: 100px;
+}
+
+ul
+, li
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+ul
+{
+    margin: 0 0 40px 0;
+
+    li
+    {
+        margin-bottom: 20px;
+
+        div
+        {
+            display: block;
+        }
+    }
+}
+
+h1
+{
+    //font-family: "Consolas", arial;
+    font-weight: 100;
+}
+
+sup
+{
+    z-index: 0;
+}
+
+.nav
+{
+    width: 100%;
+    min-height: 25px;
+    padding: 10px 10px 10px 40px;
+    position: fixed;
+    top: 0;
+    background: #333;
+    z-index: 5;
+
+    p
+    {
+      margin: 5px 0;
+    }
+
+    .nav-label
+    {
+      display: inline-block;
+      color: #fff;
+      font-weight: bold;
+    }
+
+    div.nav-contain
+    {
+        display: inline-block;
+        margin: 0 0 0 10px;
+    }
+}
+
+.woff-selector
+{
+  display: inline-block;
+  background-color: #eee;
+  padding: 0 10px;
+
+  .woff-label
+  {
+    display: inline-block;
+    color: #000;
+    font-weight: bold;
+  }
+}
+
+// font modifiers //
+.underline
+{
+    text-decoration: underline;
+}
+
+.background
+{
+    background-color: cyan;
+}
+
+.pseudo-bold
+{
+    font-weight: bold;
+}
+
+.italic
+{
+    font-style: italic;
+}
+
+// text size generator //
+.generate-sizes(20);
+
+.generate-sizes(@n, @i: 1) when (@i =< @n) {
+  .size-@{i} {
+    font-size: (10px + @i);
+  }
+  .generate-sizes(@n, (@i + 1));
+}

@@ -1,0 +1,428 @@
+@font-face {
+  font-family: 'unidayspro-book-woff1';
+  src: url('../fonts/full/unidayspro-book-web-final.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'unidayspro-book-woff2';
+  src: url('../fonts/full/unidayspro-book-web-final.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'unidayspro-demi-woff1';
+  src: url('../fonts/full/unidayspro-demi-web-final.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'unidayspro-demi-woff2';
+  src: url('../fonts/full/unidayspro-demi-web-final.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'unidayspro-heavy-woff1';
+  src: url('../fonts/full/unidayspro-heavy-web-final.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'unidayspro-heavy-woff2';
+  src: url('../fonts/full/unidayspro-heavy-web-final.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+.unidayspro-book-woff1 {
+  font-family: 'unidayspro-book-woff1', serif;
+  font-weight: normal;
+}
+.unidayspro-book-woff2 {
+  font-family: 'unidayspro-book-woff2', serif;
+  font-weight: normal;
+}
+.unidayspro-demi-woff1 {
+  font-family: 'unidayspro-demi-woff1', serif;
+  font-weight: normal;
+}
+.unidayspro-demi-woff2 {
+  font-family: 'unidayspro-demi-woff2', serif;
+  font-weight: normal;
+}
+.unidayspro-heavy-woff1 {
+  font-family: 'unidayspro-heavy-woff1', serif;
+  font-weight: normal;
+}
+.unidayspro-heavy-woff2 {
+  font-family: 'unidayspro-heavy-woff2', serif;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'unidayspro-base-book-woff1';
+  src: url('../fonts/base/unidayspro-base-book-web-final.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'unidayspro-base-book-woff2';
+  src: url('../fonts/base/unidayspro-base-book-web-final.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'unidayspro-base-demi-woff1';
+  src: url('../fonts/base/unidayspro-base-demi-web-final.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'unidayspro-base-demi-woff2';
+  src: url('../fonts/base/unidayspro-base-demi-web-final.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'unidayspro-base-heavy-woff1';
+  src: url('../fonts/base/unidayspro-base-heavy-web-final.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'unidayspro-base-heavy-woff2';
+  src: url('../fonts/base/unidayspro-base-heavy-web-final.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+.unidayspro-base-book-woff1 {
+  font-family: 'unidayspro-base-book-woff1', serif;
+  font-weight: normal;
+}
+.unidayspro-base-book-woff2 {
+  font-family: 'unidayspro-base-book-woff2', serif;
+  font-weight: normal;
+}
+.unidayspro-base-demi-woff1 {
+  font-family: 'unidayspro-base-demi-woff1', serif;
+  font-weight: normal;
+}
+.unidayspro-base-demi-woff2 {
+  font-family: 'unidayspro-base-demi-woff2', serif;
+  font-weight: normal;
+}
+.unidayspro-base-heavy-woff1 {
+  font-family: 'unidayspro-base-heavy-woff1', serif;
+  font-weight: normal;
+}
+.unidayspro-base-heavy-woff2 {
+  font-family: 'unidayspro-base-heavy-woff2', serif;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'unidayspro-euro-book-woff1';
+  src: url('../fonts/euro/unidayspro-euro-book-web-final.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'unidayspro-euro-book-woff2';
+  src: url('../fonts/euro/unidayspro-euro-book-web-final.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'unidayspro-euro-demi-woff1';
+  src: url('../fonts/euro/unidayspro-euro-demi-web-final.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'unidayspro-euro-demi-woff2';
+  src: url('../fonts/euro/unidayspro-euro-demi-web-final.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'unidayspro-euro-heavy-woff1';
+  src: url('../fonts/euro/unidayspro-euro-heavy-web-final.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'unidayspro-euro-heavy-woff2';
+  src: url('../fonts/euro/unidayspro-euro-heavy-web-final.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+.unidayspro-euro-book-woff1 {
+  font-family: 'unidayspro-euro-book-woff1', serif;
+  font-weight: normal;
+}
+.unidayspro-euro-book-woff2 {
+  font-family: 'unidayspro-euro-book-woff2', serif;
+  font-weight: normal;
+}
+.unidayspro-euro-demi-woff1 {
+  font-family: 'unidayspro-euro-demi-woff1', serif;
+  font-weight: normal;
+}
+.unidayspro-euro-demi-woff2 {
+  font-family: 'unidayspro-euro-demi-woff2', serif;
+  font-weight: normal;
+}
+.unidayspro-euro-heavy-woff1 {
+  font-family: 'unidayspro-euro-heavy-woff1', serif;
+  font-weight: normal;
+}
+.unidayspro-euro-heavy-woff2 {
+  font-family: 'unidayspro-euro-heavy-woff2', serif;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'unidayspro-cy-book-woff1';
+  src: url('../fonts/cy/unidayspro-cy-book-web-final.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'unidayspro-cy-book-woff2';
+  src: url('../fonts/cy/unidayspro-cy-book-web-final.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'unidayspro-cy-demi-woff1';
+  src: url('../fonts/cy/unidayspro-cy-demi-web-final.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'unidayspro-cy-demi-woff2';
+  src: url('../fonts/cy/unidayspro-cy-demi-web-final.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'unidayspro-cy-heavy-woff1';
+  src: url('../fonts/cy/unidayspro-cy-heavy-web-final.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'unidayspro-cy-heavy-woff2';
+  src: url('../fonts/cy/unidayspro-cy-heavy-web-final.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+.unidayspro-cy-book-woff1 {
+  font-family: 'unidayspro-cy-book-woff1', serif;
+  font-weight: normal;
+}
+.unidayspro-cy-book-woff2 {
+  font-family: 'unidayspro-cy-book-woff2', serif;
+  font-weight: normal;
+}
+.unidayspro-cy-demi-woff1 {
+  font-family: 'unidayspro-cy-demi-woff1', serif;
+  font-weight: normal;
+}
+.unidayspro-cy-demi-woff2 {
+  font-family: 'unidayspro-cy-demi-woff2', serif;
+  font-weight: normal;
+}
+.unidayspro-cy-heavy-woff1 {
+  font-family: 'unidayspro-cy-heavy-woff1', serif;
+  font-weight: normal;
+}
+.unidayspro-cy-heavy-woff2 {
+  font-family: 'unidayspro-cy-heavy-woff2', serif;
+  font-weight: normal;
+}
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  margin-bottom: -4px;
+}
+/* Hide default HTML checkbox */
+.switch input {
+  display: none;
+}
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: purple;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 12px ;
+  width: 12px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+input:checked + .slider {
+  background-color: #2196F3;
+}
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+input:checked + .slider:before {
+  -webkit-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  transform: translateX(20px);
+}
+body {
+  color: #000000;
+  line-height: 1.4;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper {
+  padding: 60px 40px 40px 40px;
+  max-width: 100%;
+  word-break: break-all;
+}
+.hidden {
+  display: none;
+}
+textarea {
+  width: 100%;
+  min-height: 100px;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+ul {
+  margin: 0 0 40px 0;
+}
+ul li {
+  margin-bottom: 20px;
+}
+ul li div {
+  display: block;
+}
+h1 {
+  font-weight: 100;
+}
+sup {
+  z-index: 0;
+}
+.nav {
+  width: 100%;
+  min-height: 25px;
+  padding: 10px 10px 10px 40px;
+  position: fixed;
+  top: 0;
+  background: #333;
+  z-index: 5;
+}
+.nav p {
+  margin: 5px 0;
+}
+.nav .nav-label {
+  display: inline-block;
+  color: #fff;
+  font-weight: bold;
+}
+.nav div.nav-contain {
+  display: inline-block;
+  margin: 0 0 0 10px;
+}
+.woff-selector {
+  display: inline-block;
+  background-color: #eee;
+  padding: 0 10px;
+}
+.woff-selector .woff-label {
+  display: inline-block;
+  color: #000;
+  font-weight: bold;
+}
+.underline {
+  text-decoration: underline;
+}
+.background {
+  background-color: cyan;
+}
+.pseudo-bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
+.size-1 {
+  font-size: 11px;
+}
+.size-2 {
+  font-size: 12px;
+}
+.size-3 {
+  font-size: 13px;
+}
+.size-4 {
+  font-size: 14px;
+}
+.size-5 {
+  font-size: 15px;
+}
+.size-6 {
+  font-size: 16px;
+}
+.size-7 {
+  font-size: 17px;
+}
+.size-8 {
+  font-size: 18px;
+}
+.size-9 {
+  font-size: 19px;
+}
+.size-10 {
+  font-size: 20px;
+}
+.size-11 {
+  font-size: 21px;
+}
+.size-12 {
+  font-size: 22px;
+}
+.size-13 {
+  font-size: 23px;
+}
+.size-14 {
+  font-size: 24px;
+}
+.size-15 {
+  font-size: 25px;
+}
+.size-16 {
+  font-size: 26px;
+}
+.size-17 {
+  font-size: 27px;
+}
+.size-18 {
+  font-size: 28px;
+}
+.size-19 {
+  font-size: 29px;
+}
+.size-20 {
+  font-size: 30px;
+}
